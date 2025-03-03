@@ -1,5 +1,7 @@
+"use client";
+import { useEffect } from "react";
 import Image, { type ImageProps } from "next/image";
-import { Button } from "@repo/ui/button";
+import { Button } from "@emenu/ui";
 import styles from "./page.module.css";
 
 type Props = Omit<ImageProps, "src"> & {
@@ -19,6 +21,12 @@ const ThemeImage = (props: Props) => {
 };
 
 export default function Home() {
+  useEffect(() => {
+    const button = document.querySelector(".my-button-class"); // replace with appropriate selector
+    if (button) {
+      button.addEventListener("click", () => alert("Open alert"));
+    }
+  }, []);
   return (
     <div className={styles.page}>
       <main className={styles.main}>

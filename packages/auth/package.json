@@ -1,20 +1,21 @@
 {
-  "name": "@emenu/database",
+  "name": "@emenu/auth",
   "version": "0.0.0",
   "private": true,
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format cjs --dts",
-    "dev": "tsup src/index.ts --format cjs --dts --watch",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
     "lint": "eslint \"src/**/*.ts*\"",
     "clean": "rm -rf dist",
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
     "@emenu/ui": "workspace:*",
-    "@supabase/ssr": "^0.5.2",
-    "@supabase/supabase-js": "^2.49.1"
+    "@emenu/database": "workspace:*",
+    "@supabase/ssr": "latest",
+    "@supabase/supabase-js": "^2.39.0"
   },
   "devDependencies": {
     "@emenu/eslint-config": "workspace:*",
