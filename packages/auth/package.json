@@ -12,17 +12,25 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@emenu/ui": "workspace:*",
     "@emenu/database": "workspace:*",
+    "@emenu/ui": "workspace:*",
+    "@supabase/auth-helpers-nextjs": "latest",
     "@supabase/ssr": "latest",
-    "@supabase/supabase-js": "^2.39.0"
+    "@supabase/supabase-js": "latest",
+    "next": "latest",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
+    "@emenu/database": "workspace:*",
     "@emenu/eslint-config": "workspace:*",
     "@emenu/typescript-config": "workspace:*",
     "@emenu/ui": "workspace:*",
+    "@supabase/supabase-js": "latest",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "19.0.2",
     "eslint": "^8.56.0",
     "tsup": "^8.0.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.8.2"
   }
 }

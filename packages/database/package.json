@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@emenu/ui": "workspace:*",
-    "@supabase/ssr": "^0.5.2",
-    "@supabase/supabase-js": "^2.49.1"
+    "@supabase/ssr": "latest",
+    "@supabase/supabase-js": "latest"
   },
   "devDependencies": {
     "@emenu/eslint-config": "workspace:*",
@@ -22,6 +22,6 @@
     "@emenu/ui": "workspace:*",
     "eslint": "^8.56.0",
     "tsup": "^8.0.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.8.2"
   }
 }

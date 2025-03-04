@@ -3,6 +3,13 @@
   "compilerOptions": {
     "outDir": "dist"
   },
-  "include": ["src"],
+  "include": [
+    "src",
+    "../auth/src/components/client.ts",
+    "src/components/auth/login-form.tsx",
+    "src/companents/auth/register-form.tsx",
+    "../auth/src/components/server.ts",
+    "../auth/src/components/types"
+  ],
   "exclude": ["node_modules", "dist"]
 }

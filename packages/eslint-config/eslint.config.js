@@ -5,9 +5,9 @@ import nextConfig from "eslint-plugin-next";
 import prettier from "eslint-plugin-prettier";
 import turboConfig from "eslint-config-turbo";
 
-import { nextJsConfig } from './next-js.js';
-import { reactInternalConfig } from './react-internal.js';
-import { baseConfig } from './base.js';
+import { nextJsConfig } from "./next-js.js";
+import { config as reactInternalConfig } from "./react-internal.js";
+import { config as baseConfig } from "./base.js";
 
 export const baseConfig = [
   {

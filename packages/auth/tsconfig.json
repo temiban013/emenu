@@ -1,5 +1,9 @@
 {
-  "extends": "@emenu/typescript-config/base.json",
+  "extends": "@emenu/typescript-config/nextjs.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "incremental": false
+  },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
 }
