@@ -15,8 +15,8 @@
     }
   },
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts  && cp package.json dist/",
-    "dev": "tsup src/index.ts --format cjs --dts,esm --watch",
+    "build": "tsup src/index.ts --format cjs --dts  && cp package.json dist/",
+    "dev": "tsup src/index.ts --format cjs --dts --watch",
     "lint": "eslint . --max-warnings 0",
     "clean": "rm -rf dist",
     "generate:component": "turbo gen react-component",
@@ -35,6 +35,10 @@
     "@types/react-dom": "19.0.3",
     "eslint": "^9.21.0",
     "tsup": "^8.0.1",
-    "typescript": "5.8.2"
+    "typescript": "latest"
+  },
+  "peerDependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   }
 }

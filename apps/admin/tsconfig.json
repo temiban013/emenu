@@ -20,7 +20,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@emenu/ui": ["../../packages/ui/src"],
+      "@emenu/auth": ["../../packages/auth/src"]
     }
   },
   "extends": "@emenu/typescript-config/nextjs.json",

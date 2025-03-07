@@ -33,7 +33,11 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-turbo": "^2.4.0",
     "globals": "^15.15.0",
-    "typescript": "^5.8.2",
+    "typescript": "latest",
     "typescript-eslint": "^8.24.0"
+  },
+  "peerDependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   }
 }

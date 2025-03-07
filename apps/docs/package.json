@@ -7,6 +7,7 @@
     "dev": "next dev --turbopack --port 3001",
     "build": "next build",
     "start": "next start",
+    "test": "jest",
     "lint": "next lint --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
@@ -31,6 +32,10 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.9",
     "ts-jest": "^29.2.6",
-    "typescript": "5.8.2"
+    "typescript": "latest"
+  },
+  "peerDependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   }
 }

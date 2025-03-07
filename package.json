@@ -20,7 +20,7 @@
     "cypress": "^12.0.0",
     "prettier": "^3.5.0",
     "turbo": "latest",
-    "typescript": "5.8.2"
+    "typescript": "latest"
   },
   "packageManager": "pnpm@9.0.0",
   "engines": {

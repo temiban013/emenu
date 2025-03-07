@@ -22,6 +22,10 @@
     "@emenu/ui": "workspace:*",
     "eslint": "^8.56.0",
     "tsup": "^8.0.1",
-    "typescript": "^5.8.2"
+    "typescript": "latest"
+  },
+  "peerDependencies": {
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   }
 }
